@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite  name="nopcommerece regression suite">
+    <parameters name="browser" value="chrome"></parameters>
+    <test name="Regression Test">
+        <classes>
+            <class name="Tests.UserRegistrationTest"/>
+        </classes>
+    </test>
+</suite>
