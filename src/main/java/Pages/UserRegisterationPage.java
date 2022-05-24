@@ -31,7 +31,7 @@ public class UserRegisterationPage extends  PageBase{
     WebElement registerButton;
     @FindBy (css="div.result")
     public WebElement sucessMessage;
-    @FindBy(linkText = "Log out")
+    @FindBy(css = "a.ico-logout")
    public WebElement logoutbtn;
     @FindBy(linkText = "My account")
     WebElement myAccountbtn;
